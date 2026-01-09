@@ -75,7 +75,7 @@
             version = neorg.rev;
             src = neorg;
             dependencies = [
-              (f.nvim-treesitter.withPlugins (_: []))
+              f.nvim-treesitter.withAllGrammars
               f.lua-utils-nvim
               f.nui-nvim
               f.nvim-nio
